@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="FireBase Estudiante"
+        android:textSize="25dp"
+        android:gravity="center_horizontal"  />
+
+    <TextView
+        android:layout_marginTop="15dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Identificacion Estudiante"
+        android:gravity="center_horizontal"  />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etidentificacion"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="p.e. 10101010" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Nombre Estudiante"
+        android:gravity="center_horizontal"  />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etnombre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="p.e. Freddy Moscoso" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Tecnica que estudia"
+        android:gravity="center_horizontal"  />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etcarrera"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="p.e. Sistemas" />
+
+    <TextView
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="15dp"
+        android:layout_gravity="center"
+        android:text="Semestre"
+        android:gravity="center_horizontal"  />
+
+    <EditText
+        android:layout_marginTop="5dp"
+        android:id="@+id/etsemestre"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:inputType="textPersonName"
+        android:hint="p.e. Tercero" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textSize="25dp"
+        android:id="@+id/btconsultar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Consultar" />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textSize="25dp"
+        android:id="@+id/btadicionar"
+        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:text="Adicionar"
+        android:layout_gravity="center_horizontal"   />
+
+    <Button
+        android:layout_marginTop="8dp"
+        android:textSize="25dp"
+        android:id="@+id/btmodificar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Modificar" />
+
+    <Button
+        android:textSize="25dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/bteliminar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Eliminar" />
+
+    <Button
+        android:textSize="25dp"
+        android:layout_marginTop="8dp"
+        android:id="@+id/btlimpiar"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Limpiar" />
+</LinearLayout>

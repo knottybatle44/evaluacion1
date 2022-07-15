@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "136275422473",
+    "project_id": "lunes-estudiante",
+    "storage_bucket": "lunes-estudiante.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:136275422473:android:60e762fcee08a69e8037d8",
+        "android_client_info": {
+          "package_name": "com.example.firebaseestudiantes6am"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "136275422473-8ej2l53o7c8vbu51rfvomp2m7h2klqu4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDW0mYCg7yBnrsjEhXNTzKU3F2XDQpPDxw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "136275422473-8ej2l53o7c8vbu51rfvomp2m7h2klqu4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
